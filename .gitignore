@@ -1,0 +1,43 @@
+# Python bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment (if you are using one)
+venv/
+env/
+.venv/
+
+# SQLite database (if you are using SQLite)
+data.sqlite
+
+# Log files (if any)
+*.log
+
+# IDE-specific files
+.idea/        # PyCharm
+.vscode/      # Visual Studio Code
+.project/     # Eclipse
+.settings/    # Eclipse
+
+# OS-specific files
+.DS_Store     # macOS
+Thumbs.db    # Windows
+
+# Sensitive information (if you have any)
+.env         # Environment variables
+config.py    # If you have a separate config file with sensitive info
+secrets.json # If you store secrets in a JSON file
+
+# Temporary files
+*.tmp
+
+# Files generated during testing
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
